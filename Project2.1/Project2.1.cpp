@@ -1,5 +1,7 @@
 #include <iostream>
 
+void funk2();
+
 void funk()
 {
 	std::cout << "Output from funk \n";
@@ -22,6 +24,7 @@ int main()
 	std::cout << "Final Main \n";
 
 	//Why doesn't this program run???  Submit your idea!
+	//have to use a forward declaration to call funk2!  Builds and runs correctly!
 
 	return 0;
 }
